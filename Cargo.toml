@@ -1,5 +1,6 @@
 [package]
 name = "Icarus-nrf9160-bsp"
+description = "Icarus-nrf9160-bsp is an open source board support package for the Icarus IoT dev board by Actinius."
 version = "0.0.0"
 license = "MIT OR Apache-2.0"
 readme = "README.md"
@@ -12,3 +13,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+nrf9160-hal = "0.15.1"
